@@ -1,0 +1,46 @@
+# Virtual Environment
+.venv/
+venv/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Python Cache / Build
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Pip logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Type checkers
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# Code Editors
+.idea/
+*.iml
+out/
+.vscode/
+.ipynb_checkpoints/
+
+# macOS / Linux / Windows
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
